@@ -1,6 +1,6 @@
 package org.example;
 
-public class EukaryaDomain {
+public abstract class EukaryaDomain {
 
     private String className;
     private String orderName;
@@ -10,16 +10,15 @@ public class EukaryaDomain {
     private String organismName;
     private boolean extinct;
 
-    public EukaryaDomain(String mammalia , String carnivora, String canidae, String canis, String canisLupus, String wolf, boolean isExstinct)
+    public EukaryaDomain(String className , String orderName, String familyName, String genusName, String speciesName, String organismName, boolean extinct)
     {
-        className = mammalia;
-        orderName = carnivora;
-        familyName = canidae;
-        genusName= canis;
-        speciesName = canisLupus;
-        organismName = wolf;
-        extinct = isExstinct;
-
+        this.className = className;
+        this.orderName = orderName;
+        this.familyName = familyName;
+        this.genusName = genusName;
+        this.speciesName = speciesName;
+        this.organismName = organismName;
+        this.extinct = extinct;
     }
 
     public String getClassName() {
