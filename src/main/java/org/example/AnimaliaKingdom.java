@@ -24,4 +24,9 @@ public class AnimaliaKingdom extends EukaryaDomain {
         return phylum;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "\nPhylum: " + getPhylum();
+    }
+
 }

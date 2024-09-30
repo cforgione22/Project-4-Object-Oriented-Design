@@ -24,12 +24,6 @@ public class Aardvark extends AnimaliaKingdom {
 
     @Override
     public String toString() {
-        return "\nPhylum: " + getPhylum() +
-                "\nClass name: " + getClassName() +
-                "\nOrder name: " + getOrderName() +
-                "\nFamily name: " + getFamilyName() +
-                "\nGenus name: " + getGenusName() +
-                "\nSpecies name: " + getOrganismName() +
-                "\nHabitat: " + habitat;
+        return super.toString() + "\nHabitat: " + habitat;
     }
 }

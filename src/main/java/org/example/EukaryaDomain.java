@@ -84,15 +84,14 @@ public abstract class EukaryaDomain {
 
     /**
      * This method is created to change the boolean from displaying "true" or "false" , to "yes" or "no" to the user.
-     *
      */
-
-    public void extinction() {
-        if(!isExtinct()) {
-            System.out.println("Are " + getOrganismName() + " extinct? No");
-        }
-        else {
-            System.out.println("Are " + getOrganismName() + " extinct? Yes");
-        }
+    @Override
+    public String toString() {
+        return "Class name: " + getClassName() +
+                "\nOrder name: " + getOrderName() +
+                "\nFamily name: " + getFamilyName() +
+                "\nGenus name: " + getGenusName() +
+                "\nSpecies name: " + getOrganismName() +
+                "\nExtinct: " + (extinct ? "Yes" : "No");
     }
 }

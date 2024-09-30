@@ -23,5 +23,10 @@ public class PlantaeKingdom extends EukaryaDomain {
         return division;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "\nDivision: " + getDivision();
+    }
+
 }
 
