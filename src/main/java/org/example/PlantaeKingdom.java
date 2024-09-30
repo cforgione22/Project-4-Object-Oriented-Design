@@ -16,5 +16,6 @@ public class PlantaeKingdom extends EukaryaDomain {
     public String getDivision() {
         return division;
     }
+
 }
 

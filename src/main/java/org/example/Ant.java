@@ -19,14 +19,13 @@ public class Ant extends AnimaliaKingdom {
 
     @Override
     public String toString() {
-        return "Cast membership: " + casteMembership +
-                "Phylum: " + getPhylum() +
-                "Class name: " + getClassName() +
-                "Order name: " + getOrderName() +
-                "Family name: " + getFamilyName() +
-                "Genus name: " + getGenusName() +
-                "Species name " + getOrganismName() +
-                "Extinct: " + isExtinct() +
-                "Cast membership: " + casteMembership;
+        return "\nPhylum: " + getPhylum() +
+                "\nClass name: " + getClassName() +
+                "\nOrder name: " + getOrderName() +
+                "\nFamily name: " + getFamilyName() +
+                "\nGenus name: " + getGenusName() +
+                "\nSpecies name: " + getOrganismName() +
+                "\nCast membership: " + casteMembership;
     }
+
 }

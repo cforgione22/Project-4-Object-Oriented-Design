@@ -76,4 +76,12 @@ public abstract class EukaryaDomain {
     public void setExtinct(boolean extinct) {
         this.extinct = extinct;
     }
+    public void extinction() {
+        if(!isExtinct()) {
+            System.out.println("Are " + getOrganismName() + " extinct? No");
+        }
+        else {
+            System.out.println("Are " + getOrganismName() + " extinct? Yes");
+        }
+    }
 }

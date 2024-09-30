@@ -19,13 +19,12 @@ public class Aardvark extends AnimaliaKingdom {
 
     @Override
     public String toString() {
-        return "Phylum: " + getPhylum() +
-                "Class name: " + getClassName() +
-                "Order name: " + getOrderName() +
-                "Family name: " + getFamilyName() +
-                "Genus name: " + getGenusName() +
-                "Species name " + getOrganismName() +
-                "Extinct: " + isExtinct() +
-                "Habitat: " + habitat;
+        return "\nPhylum: " + getPhylum() +
+                "\nClass name: " + getClassName() +
+                "\nOrder name: " + getOrderName() +
+                "\nFamily name: " + getFamilyName() +
+                "\nGenus name: " + getGenusName() +
+                "\nSpecies name: " + getOrganismName() +
+                "\nHabitat: " + habitat;
     }
 }

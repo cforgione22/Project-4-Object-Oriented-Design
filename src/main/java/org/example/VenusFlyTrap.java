@@ -19,14 +19,14 @@ public class VenusFlyTrap extends PlantaeKingdom {
 
     @Override
     public String toString() {
-        return "Division: " + getDivision() +
-                "Class name: " + getClassName() +
-                "Order name: " + getOrderName() +
-                "Family name: " + getFamilyName() +
-                "Genus name: " + getGenusName() +
-                "Species name " + getOrganismName() +
-                "Extinct: " + isExtinct() +
-                "Trap size: " + trapSize;
+        return  "Division: " + getDivision() +
+                "\nClass name: " + getClassName() +
+                "\nOrder name: " + getOrderName() +
+                "\nFamily name: " + getFamilyName() +
+                "\nGenus name: " + getGenusName() +
+                "\nSpecies name: " + getOrganismName() +
+                "\nTrap size: " + trapSize;
+
     }
 
 }
