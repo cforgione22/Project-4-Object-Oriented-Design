@@ -4,7 +4,18 @@ public class AnimaliaKingdom extends EukaryaDomain {
 
     private String phylum;
 
-    public AnimaliaKingdom(String mammalia, String carnivora, String canidae, String canis, String canisLupus, String wolf, boolean isExstinct) {
-        super(mammalia, carnivora, canidae, canis, canisLupus, wolf, isExstinct);
+    public AnimaliaKingdom(String phylum, String className , String orderName, String familyName, String genusName, String speciesName, String organismName, boolean extinct) {
+        super(className, orderName, familyName, genusName, speciesName, organismName, extinct);
+        this.phylum = phylum;
     }
+
+
+    public void setPhylum(String phylum) {
+        this.phylum = phylum;
+    }
+
+    public String getPhylum() {
+        return phylum;
+    }
+
 }

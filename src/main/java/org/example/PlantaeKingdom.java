@@ -4,7 +4,17 @@ public class PlantaeKingdom extends EukaryaDomain {
 
     private String division;
 
-    public PlantaeKingdom(String mammalia, String carnivora, String canidae, String canis, String canisLupus, String wolf, boolean isExstinct) {
-        super(mammalia, carnivora, canidae, canis, canisLupus, wolf, isExstinct);
+    public PlantaeKingdom(String division, String className , String orderName, String familyName, String genusName, String speciesName, String organismName, boolean extinct) {
+        super(className, orderName, familyName, genusName, speciesName, organismName, extinct);
+        this.division = division;
+    }
+
+    public void setDivision(String division) {
+        this.division = division;
+    }
+
+    public String getDivision() {
+        return division;
     }
 }
+
