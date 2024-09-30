@@ -8,18 +8,18 @@ package org.example;
 
 public class VenusFlyTrap extends PlantaeKingdom {
 
-    private String trapSize;
+    private double trapSize;
 
-    public VenusFlyTrap(String trapSizeString, String division, String className , String orderName, String familyName, String genusName, String speciesName, String organismName, boolean extinct) {
+    public VenusFlyTrap(double trapSize, String division, String className , String orderName, String familyName, String genusName, String speciesName, String organismName, boolean extinct) {
         super(division, className, orderName, familyName, genusName, speciesName, organismName, extinct);
         this.trapSize = trapSize;
     }
 
-    public String getTrapSize() {
+    public double getTrapSize() {
         return trapSize;
     }
 
-    public void setTrapSize(String trapSize) {
+    public void setTrapSize(double trapSize) {
         this.trapSize = trapSize;
     }
 
@@ -31,7 +31,7 @@ public class VenusFlyTrap extends PlantaeKingdom {
                 "\nFamily name: " + getFamilyName() +
                 "\nGenus name: " + getGenusName() +
                 "\nSpecies name: " + getOrganismName() +
-                "\nTrap size: " + trapSize;
+                "\nTrap size: " + trapSize + " inches";
 
     }
 
