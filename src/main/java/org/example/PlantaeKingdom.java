@@ -1,5 +1,11 @@
 package org.example;
 
+/**
+ * PlantaeKingdom extends from abstract class EukaryaDomain. This is where the data field division is created and stored.
+ *
+ */
+
+
 public class PlantaeKingdom extends EukaryaDomain {
 
     private String division;

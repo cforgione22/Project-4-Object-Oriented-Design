@@ -1,5 +1,11 @@
 package org.example;
 
+/**
+ *  VenusFlyTrap is the subclass of PlantaeKingdom. This is where the toString for Venus Fly Tra is created and
+ *  where the data field trapSize is stored.
+ *
+ */
+
 public class VenusFlyTrap extends PlantaeKingdom {
 
     private String trapSize;

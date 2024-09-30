@@ -1,5 +1,10 @@
 package org.example;
 
+/**
+ * EukaryaDomain is an abstract class that has most of the date fields and methods needed for this program. The data fields are  created and used for storage
+ * for this program to run successfully.
+ */
+
 public abstract class EukaryaDomain {
 
     private String className;
@@ -76,6 +81,12 @@ public abstract class EukaryaDomain {
     public void setExtinct(boolean extinct) {
         this.extinct = extinct;
     }
+
+    /**
+     * This method is created to change the boolean from displaying "true" or "false" , to "yes" or "no" to the user.
+     *
+     */
+
     public void extinction() {
         if(!isExtinct()) {
             System.out.println("Are " + getOrganismName() + " extinct? No");

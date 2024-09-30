@@ -1,5 +1,10 @@
 package org.example;
 
+/**
+ *  Aardvark is the subclass of AnimaliaKingdom. This is where the toString for Aardvark is created and
+ *  where the data field habit is stored.
+ *
+ */
 public class Aardvark extends AnimaliaKingdom {
 
     private String habitat;

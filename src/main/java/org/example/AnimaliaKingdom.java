@@ -1,5 +1,11 @@
 package org.example;
 
+/**
+ *  AnimaliaKingdom extends from abstract class EukaryaDomain. This is where phylum is created and where the information
+ *  passed into phylum is stored.
+ *
+ */
+
 public class AnimaliaKingdom extends EukaryaDomain {
 
     private String phylum;

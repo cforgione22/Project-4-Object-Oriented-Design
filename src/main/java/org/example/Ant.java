@@ -1,5 +1,12 @@
 package org.example;
 
+
+/**
+ *  Ant is the subclass of AnimaliaKingdom. This is where the toString for Ant is created and
+ *  where the data field casteMembership is stored.
+ *
+ */
+
 public class Ant extends AnimaliaKingdom {
 
     private String casteMembership;
